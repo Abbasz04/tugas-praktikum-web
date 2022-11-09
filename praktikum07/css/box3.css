@@ -1,0 +1,29 @@
+.kotak-atas{
+    width: 100%;
+    height: 100px;
+    background-color: greenyellow;
+}
+
+.countainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.countainer .kotak:nth-child(1) {
+    background-color: yellow;
+    width: 20%
+}
+
+.countainer .kotak:nth-child(2) {
+    width: 79%;
+    background-color: orange;
+}
+
+.item {
+    background-color: aqua;
+}
+
+.kotak {
+    height: 200px;
+}
